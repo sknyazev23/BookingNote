@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <title>Booking note</title>
+</head>
+<body>
+    <div class="container">
+        <header><h1>Booking note</h1></header>
+
+            <form action="#">
+                <div class="form first">
+                    <div class="details company">
+                        <span class="title">Companies details</span>
+
+                        <div class="fields">
+                            <div class="input-field">
+                                <label>Client</label>
+                                <input name="clientName" type="text" placeholder="Enter client's name">
+                            </div>
+                            <div class="input-field">
+                                <label>Carrier</label>
+                                <input name="carrierName" type="text" placeholder="Enter carrier's name">
+                            </div>
+                            <div class="input-field">
+                                <label>Shipper</label>
+                                <input name="shipperName" type="text" placeholder="Enter shipper's name">
+                            </div>
+                            <div class="input-field">
+                                <label>Port of loading</label>
+                                <input name="loadingPort" type="text" placeholder="Enter port">
+                            </div>
+                            <div class="input-field">
+                                <label>Port of discherge</label>
+                                <input name="dischargePort" type="text" placeholder="Enter port">
+                            </div>
+                            <div class="input-field">
+                                <label>Payment terms</label>
+                                <input name="paymentTerms" type="text" placeholder="Enter terms">
+                            </div>
+                            <div class="input-field">
+                                <label>Payment location</label>
+                                <input name="paymentLocation" type="text" placeholder="Enter location">
+                            </div>
+                            <div class="input-field">
+                                <label>Payer</label>
+                                <input name="payer" type="text" placeholder="Enter payer's name">
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="details company">
+                        <span class="title">Commodity details</span>
+
+                        <div class="fields">
+                            <div class="input-field">
+                                <label>Commodity description</label>
+                                <input name="commodityDescription" type="text" placeholder="Enter description">
+                            </div>
+                            <div class="input-field">
+                                <label>Quantity</label>
+                                <input name="quantity" type="number" placeholder="Enter quantity">
+                            </div>
+                            <div class="input-field">
+                                <label>Weight</label>
+                                <input name="weight" type="number" placeholder="Enter weight">
+                            </div>
+                            
+
+                        </div>
+                    </div>
+
+                    <div class="details company">
+                        <span class="title">Expenses</span>
+
+                        <div class="fields">
+                            <div class="input-field">
+                                <label>Purchase of goods</label>
+                                <input name="costOfGoods" type="number" placeholder="Enter a cost">
+                            </div>
+                            <div class="input-field">
+                                <label>Sales comission</label>
+                                <input name="salesComission" type="number" placeholder="Enter comission">
+                            </div>
+                            <div class="input-field">
+                                <label>Freight to JA/Dubai</label>
+                                <input name="freightToJaDubai" type="number" placeholder="Enter a cost">
+                            </div>
+                            <div class="input-field">
+                                <label>Freight to a border</label>
+                                <input name="freightToBorder" type="number" placeholder="Enter a cost">
+                            </div>
+                            <div class="input-field">
+                                <label>Freight to a warehouse of client (local)</label>
+                                <input name="freightToClient" type="number" placeholder="Enter a cost">
+                            </div>
+                            <div class="input-field">
+                                <label>Customs clearance</label>
+                                <input name="customsClearance" type="number" placeholder="Enter a cost">
+                            </div>
+                            <div class="input-field">
+                                <label>Other expenses</label>
+                                <input name="otherExpenses" type="number" placeholder="Enter a cost">
+                            </div>
+                            
+
+                        </div>
+                    </div>
+
+                    <div class="details company">
+                        <span class="title">Details of sale</span>
+
+                        <div class="fields">
+                            <div class="input-field">
+                                <label>Seller</label>
+                                <input name="sellerName" type="text" placeholder="Enter sale's name">
+                            </div>
+                            <div class="input-field">
+                                <label>Final buyer</label>
+                                <input name="finalBuyer" type="text" placeholder="Enter buyer's name">
+                            </div>
+                            <div class="input-field">
+                                <label>Incoterms</label>
+                                <input name="incoterms" type="text" placeholder="Enter terms">
+                            </div>
+                            <div class="input-field">
+                                <label>Total price</label>
+                                <input name="totalPrice" type="text" placeholder="Enter price">
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="details company">
+                        <span class="title"><h2>Profit</h2></span>
+
+                        <div class="fields">
+                            <div class="input-field">
+                                <label>Profit AED</label>
+                                <p id="profit"><i>calculated profit</i></p>
+                                <!-- <input type="number" placeholder="">  -->
+                            </div>
+                            <div class="input-field">
+                                <label>Profit USD</label>
+                                <p id="profit"><i>calculated profit</i></p>
+                                <!-- <input type="number" placeholder=""> -->
+                            </div>
+                                                       
+                        </div>
+                    </div>
+
+                    <div class="details company">
+                        <span class="title">Remarks</span>
+
+                        <div class="fields">
+                            <div class="input-field">
+                                <label>Branch</label>
+                                <input name="remarks" type="text" placeholder="Enter branch's name">
+                            </div>
+                            <div class="input-field">
+                                <label>Sales_1</label>
+                                <input name="sales1" type="text" placeholder="Enter sales name">
+                            </div>
+                            <div class="input-field">
+                                <label>Sales_2</label>
+                                <input name="sales2" type="text" placeholder="Enter sales name">
+                            </div>
+                            <div class="input-field">
+                                <label>Approved by</label>
+                                <input name="approved" type="text" placeholder="Enter name">
+                            </div>
+                                                       
+                        </div>
+
+                        <div class="buttons">
+                            <button class="rfrsBtn" type="reset">
+                                <span class="btnText">Refresh</span>
+                                <i class="uil uil-toilet-paper"></i>
+                            </button>
+
+                            <button class="subBtn" type="submit">
+                                <span class="btnText">Submit</span>
+                                <i class="uil uil-check-circle"></i>
+                            </button>
+                        </div>
+
+                        
+                    </div>
+
+                </div>
+            </form>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
